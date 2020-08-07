@@ -1,0 +1,36 @@
+1. What is a Build tool?
+	In software terminology,building means the conversion of source code and other artifacts,like images or configuration files,into another artifact.
+The build result can be shared internally or to other users.
+
+A Build tool is used to automate repetitive tasks during this process. It can be used to compile source code,run software tests and create files and documentation for the software deployment.
+	The Build tools typically can be run directly from command line without any user interface and hence these builds are called headless. 
+It is very practical to use bulid tools in larger projects as the volume of code to be tested is high and automation makes if fast,accurate and efficient.
+
+2. How many buildtools are there?
+
+For very software programm like Java,.Net , there are specified Buildtools such as:
+1. For Java - Ant,Maven,Gradle
+2. For .NET framework -NAnt
+3. C# - MSBuild
+
+3. What is ANT?
+	Another Neat Tool(ANT) is a general purpose build tool. It is used for building and deploying Java projects but can be used for every possible repetitive tasks ex. generating documentation.
+
+4.What is build.xml?
+
+A java build process consists of :
+ - The compilation of the java source into java bytercode
+ - Creation of the .jar file for the distribution of the code
+ - Creation of the javadoc documentation
+
+Ant using xml for its configuration. The default name is build.xml. Ant builds are based on based on 3 tags : projects,target and task
+- Project : A Project is a unit of work : ex. compiling source code or create a javadoc. Projects can be grouped into targets
+- Target : A target is a collection of tasks that we want to run as one unit. Targets can have dependencies on other targets.
+- Task : A task can be directly invoked via Ant. Tasks can specify dependencies and Ant will execute all the dependent targets automatically.
+
+The Project tag has 3 attributes :
+
+1. Name : Name of the project
+2. Default : The default target for the build script.A project may contain any number of targets. This arrtibute specified which target should be considered as the default.
+3. Basedir : The base directory or the root folder for the project.
+
