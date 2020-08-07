@@ -1,0 +1,46 @@
+         What is Build Tool ?
+                              Built tool is a program that automate the process of building an executable application from source code.
+This building process includes activities like 
+                                           *compiling,
+					   *linking and 
+					   *packaging the code into an executable from.
+	 What are the activities include in this tool
+	     *Downloading the dependencies.
+             *Compiling source code to the form of binary code.
+             *Packaging that binary code.
+             *Running the test.
+             *Deploying them to the production systems
+	  Their are many Build tools in market but for JaVa only three build tools are mostly popular in market
+	  1)Apache ANT
+	  2)Apache MAVEN
+	  3)GRADLE
+	  What is ANT
+ANT is Another Neat Tool it is jawa based build tool
+         What is Built.xml
+The file which builds by an ANT tool is called Build.xml. Only ANT can understand its own language.ANT is the Dependency by JAVA.
+         What is XML file
+the fullform of  XML stands for Extensible Markup Language.The purpose of XML is to carry data.
+         The Tags of build.xml are:
+	 1)Project
+	 2)Target
+	 3)Tasks
+
+	 1. Project:
+Project elemtent has again three attributes
+1. Name: contains name of project
+2. Default:The default target for build script.A project may contain any number of targets.
+3. Basedir:The base directory 
+4.Description:It contains detail explanation about project.
+
+2. Target:
+The target element has attributes
+1. Name:The name of target
+2. Depends:Comma separated list of all targets that this target depends on.
+3. source:the source of program(location)
+
+3. Tasks:
+Task element has four attributes
+1. Compile:To compile the give code
+2. Build:The process of building code
+3. Test:It will test the code is it excutable or not
+4. Deploy: It will bring the code to usable or excutable
