@@ -9,3 +9,21 @@ Buildtool information.
 .Apache Maven, a java platform tool for dependency management and automated software build
 .A-A-P, a Python based build tool
 .Gradle, an open-source build and automation system with an Apache Groovy-based domain specific language (DSL), combining features of Apache Ant and Apache Maven with additional features like a reliable incremental build.
+
+Apache ANT
+ANT : Another Neat Tool
+Dependancy - Java dependency
+Apache Ant's build files are written in XML format.
+XML : Extensible Markup Language
+These build files are called build.XML and contain Tags such as Project, Target and Tasks. Each build file contains one project and at least one (defult) target. Target contain task elements.
+
+1. Project:
+A project has three attributes such as name, default, basedirectory.
+
+2.Target: A target can have other targets which are to be reached.
+
+3.Tasks:
+A task is a piece of code that can be executed.
+A task can have multiple attributes(arguments). The value of an attribute might contain references to a property. These references will be resolved before the task is executed.
+Tasks have a common structure:
+ <name attribute1="value1" attribute2="value2" .../>
