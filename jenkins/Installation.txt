@@ -24,7 +24,7 @@ step 3:After adding repository update system and install jenkins.
 step 4:Start jenkins with command #sudo systemctl start jenkins
 step 5:To check the status of jenkins use command #sudo systemctl status jenkins
 step 6:Open browser and go to localhost:8080 
-step 7:Creat accout.
+step 7:Create accout.
 
 3.Jenkins installation throung tomcat server:
 
