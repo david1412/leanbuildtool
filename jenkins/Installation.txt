@@ -33,7 +33,7 @@ step 2:Install apche tomcat by downloading tomcat from official site.
 step 3:Unzip tomcat and go to webapps folder
 step 4:Download and copy jenkins.war file in webapps folder
 step 5:Open command prompt with path to bin folder
-step 6:Type cpommand startup.bat
+step 6:Type command startup.bat
 step 7:Open browser and type localhost:8080/jenkins
 step 8:Create jenkins account.
 
@@ -44,7 +44,7 @@ step 2:Download jenkins .exe file from officail website
 step 3:Click on icon to install
 step 4:Follow the instruction it gives
 step 5:After installation go to browswer and open locathost:8080
-step 6:Creat account.
+step 6:Create account.
 
 
 Note:
