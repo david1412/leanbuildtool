@@ -1,0 +1,20 @@
+Git-Hooks:
+>>Git hooks are the script files that run internall when a particular event is performed in git repository.
+>>This hooks are found in .git folder of the repository.
+>>There are 9 hooks with pre-defined scripts in git hooks with .sample extension so that they wont excute automatically.
+1. pre-push.sample
+2. commit-msg.sample
+3. pre-rebase.sample
+4. pre-applypatch.sample
+5. post-update.sample
+6. prepare-commit-msg.sample
+7. update.sample
+8. post-update.sample
+9. pre-commit.sample
+
+>>This  pre .sample files runs internally when we are about to perform those actions and and it will generates a message
+
+>> Post.sample files runs internally and used only for notifications.
+
+
+

@@ -1,0 +1,55 @@
+WHAT IS JENKINS?
+Jenkins is a automation tool used is devops for continuous integration purposes.
+It is easy to use and it has many inbuild pulgins.
+
+Jekins can be installed in many ways,some are described below.
+
+1.Jenkins installation as a jar file using java.
+
+step 1:Install java in computer/laptop and set path in environment variable
+step 2:Download jenkins.war file from jenkins official website its free as it is open source.
+step 3:Go to the location where you want to install
+step 4:Unpack war file using   java -jar jenkins.war commands in command prompt
+step 5:After installing open browser and type "localhost:8080" in url bar.
+step 6:Jenking page will open creat account to activate.
+
+2.Jenkins as repository in linux environment:
+
+step 1:Install java in computer/laptop and set path in environment variable
+step 2:Add jenkins repository to system using commands
+wget -q -O-https://pkg.jenkins.io/debian/jenkins-ci.org.key |
+sudo apt-key add –echo deb https://pkg.jenkins.io/debian-stable binary/ |
+sudo tee /etc/apt/sources.list.d/jenkins.list
+step 3:After adding repository update system and install jenkins.
+step 4:Start jenkins with command #sudo systemctl start jenkins
+step 5:To check the status of jenkins use command #sudo systemctl status jenkins
+step 6:Open browser and go to localhost:8080 
+step 7:Create accout.
+
+3.Jenkins installation throung tomcat server:
+
+step 1:Install java in computer/laptop and set path in environment variable
+step 2:Install apche tomcat by downloading tomcat from official site.
+step 3:Unzip tomcat and go to webapps folder
+step 4:Download and copy jenkins.war file in webapps folder
+step 5:Open command prompt with path to bin folder
+step 6:Type command startup.bat
+step 7:Open browser and type localhost:8080/jenkins
+step 8:Create jenkins account.
+
+4.Install jenkins as .exe file
+
+step 1:Install java in computer/laptop and set path in environment variable
+step 2:Download jenkins .exe file from officail website
+step 3:Click on icon to install
+step 4:Follow the instruction it gives
+step 5:After installation go to browswer and open locathost:8080
+step 6:Create account.
+
+
+Note:
+>>While creating account it asks for password which is found in secrets folderin jenkins file in your system. 
+
+>>While creating account you can install suggested plugins. 
+
+

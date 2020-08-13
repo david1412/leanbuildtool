@@ -1,0 +1,20 @@
+What is webhook in git?
+Webhook is a triggering link which notifies external services like jenkins about the changes in linked repository and jenkins will perform the build.
+
+Process:
+step 1: Go to repository in github click settings
+step 2: In settings find and click webhooks in left side labels
+step 3: In right top corner click on add hook
+step 4: In Payload url column give jenkins url
+step 5: Selct events which you want to trigger by the webhook
+step 6: click on Add webhook.
+step 7: Open jenkins new item and select freestyle project.
+step 8: Under source code management select Git and give url of git repository 
+step 9: Go to buils triggers and select GitHub hook trigger and save.
+
+there by the linking of GitHub and Jenkins to have intergrating flow is done by webhook
+
+>>when ever there is new push or commites was done to GitHub repository then this webhook will indentify them and it will notify the jenkins about the changes.
+
+
+
