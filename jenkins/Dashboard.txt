@@ -1,0 +1,34 @@
+Jenkins:
+Jenkins is a automation tool used in devops for continuous integration and continuous delivery purposes.
+
+The action to be performe in jenkins can be directed by command lines
+or by jenkins User interface.
+
+>jenkins User interface has main page called Dashboard.
+>We can perform varies tasks from this Dashbord with the help of labes it provided.They are:
+
+1. New Item:
+>It is used to creat new project to build.
+>It has various options,they are
+a. Free style project:Any SCM with any build sytem can be build by this including other than sofware build.
+b. Pipeline: It a free style build method.user can give commads to perfom steps as per his requirments.
+c. Multi-configuration:It is recommended to use the projects that requirelarge number of different configurations,like testing on multiple environments,platfrom-specific builds,etc,.
+d. Folder: It is used to store projects and grouping together to build with seperate namespace.
+e. GitHub Organization:used to build project from gitHUb repository
+f. Multibranch Pipeline:Creates a set of Pipeline projects according to detected branches in one SCM repository.
+
+2. PEOPLE:The details of people and their activity is displayed who got aauthentication from admin.
+
+3. BUILD HISTORY:It displays all the details of previous build projects and thier status.
+
+4. MANAGE JENKINS:Here we can configure,customize and add required plugins. System information and security measures can be taken.
+
+5. MY views: It displays  details about the builds attempted.
+
+6. LOCKABLE RESOURCES: Its a plugin which allows external devices that has source code and to run build.
+
+7. NEW VIEW: the viw of selcted project can be seen in seen in simple list format.
+
+8. BUILD QUEUE:It displays the list of projects about to start build process.
+
+9. BUILD EXECUTOR STATUS:It displays the details about the build which are execute.
