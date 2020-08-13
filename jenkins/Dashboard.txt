@@ -17,7 +17,7 @@ d. Folder: It is used to store projects and grouping together to build with sepe
 e. GitHub Organization:used to build project from gitHUb repository
 f. Multibranch Pipeline:Creates a set of Pipeline projects according to detected branches in one SCM repository.
 
-2. PEOPLE:The details of people and their activity is displayed who got aauthentication from admin.
+2. PEOPLE:The details of people who got authentication from admin and their activity is displayed.
 
 3. BUILD HISTORY:It displays all the details of previous build projects and thier status.
 
