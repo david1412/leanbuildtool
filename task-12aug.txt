@@ -1,0 +1,119 @@
+2. In github > what is webhook and githooks? learn and write your own explanation.
+
+Webhooks: 
+
+>>In Github, webhooks are nothing but user defined callbacks made with that are triggered by specific events.
+>> In application, whenever the trigger event occurs in the source code, the webhook sees the event, collects the data and sends it to the user specified url in the form of an HTTPS request.
+>> It is very effective as it is automatically performed and user has to just create the webhook to activate the linking between two applications.
+
+Githooks :
+
+>> Are scripts that run automatically every time a particular event occurs in a git repository.
+>> They are built in feature in Git and hence no need to download any additional plugin.
+>> They run locally and scripting is very flexible.
+=============================================================================================================================================
+
+3. What is Jenkins?
+
+>> Jenkins is a free and open source CI/CD tool written in Java
+>> It is used for automating the building and deployment of the source code across different software environments.
+>> It is a server based system and works with Apache Tomcat server.
+>> It has more than 3000 plugins for continuous integration.
+>> It is used to implement CI/CD workflows also known as Pipelines.
+>> It supports version control tools like Github.
+>> It keeps track of the version control system and when any changes are made, it triggers the build system.
+>> After the build, it generates the report and notifies the user about the results.
+
+
+===========================================================================================================================================
+4. How many CI/CD tools are there in the market?
+
+The following is the list of CI/CD tools available in the market: 
+
+1.CircleCI : >> Is a CI/CD tool that supports rapid software development and publishing.
+             >> Inegrates with Bitbucket,GitHUb and Github Enterprise.
+             >> It also hosts continuous integration under the cloud managed option or runs behind a firewall on private infastructure.
+             >> Runs builds using a container or virtual machine.
+             >> Highly customizable , personalized email and IM notification
+
+2.TeamCity: >> Is a build management andcontinuous integration server.
+            >> It runs in Java environment and integrates with Visual Studio and IDEs  
+           
+3.Bamboo: >> Is CI server that automates the management of software application releases, thus creating a continuous delivery pipeline.
+          >> Runs batches of tests in paralle and get feedback quickly.
+
+4.Gitlab: >>Is a suite of tools for managing different aspects of the software development lifecycle.
+          >> Allows you to trigger duilds,run tests,and deploy code with each commit and push.
+          >> Jobs can be build in virtual machine,Docker contrainer or on another server.
+
+5.Buddy: >>Is CI/CD software that builds,tests,deploy websites and applications with code from Github,Bitbucket and Gitlab.
+
+6.Travis CI : >> Is a CI service used to build and test projects.It automatically detects new commits made and pushed to a github repo.
+              >> Tool provides support support for many build configurations and languages lie Node,PHP,Python,Java,Perl  etc.
+
+7.Codeship : >> is a hosted platform that supports early and automatic software releases in multiple times.
+              >> Builds and deplyments are faster with its turnkey environment  and simple ui
+              >> Seamless third party integrations,smart notification and project dashboards to provide a high level overview of your projects and their health.
+
+8.GoCD : >> Is a open-source tool to build and release software that supports modern infrastructure on CI/CD.
+
+9.Wercker : >> Is suitable for developers working on projects using Docker.
+              >>Supports organizations and their teams to work with CI/CD,microservices and Docker.
+
+10.Semaphore : >> Is a hosted CI/CD service used for testing and deploying software projects.
+                >> It establishes CI/CD standards with a pull-request based development process.
+
+11.Nevercode : >> Supports CI/CD for mobile Apps. Helps build,test and release both native and cross platform apps faster.
+
+12.Spinnaker : >> Is a multi-cloud continuous delivery platform that supports and releasing and deploying software changes across different cloud providers.
+
+13.Buildbot : >> Is  a python based CI framework.  
+               >> It automates the compile and test cycles to validate code , rebuilds and test  the tree after every change.
+=====================================================================================================================
+
+5. How do you create Jenkins job?
+
+To create a Jenkins job, the prerequisites are: Jenkins installed on your system or accessible via cloud and Jenkins account.
+To start with the job creations:
+1.Login into Jenkins account.
+2.On the left sidebar, select the New Item option: This allows the user to start a new project using Jenkins.
+3.A new window will be opened with the option showing what type of project we want to create and write about its description
+4. Select an item from different items (including Freestyle Project, Pipeline, Multi-configuration Project, Folder, GitHub Organization, or Multibranch Pipeline). 
+5.When Githud Organization is selected, the user needs to enter the github credentials liks user name and password to access Github remote repository.
+6. for a freestyle project, there are futher more options can be chosen. The user can configure a large number of build aspects, such as:
+	• Build triggers (such as remote build)
+	• Build environment (such as deleting the workspace before build starts)
+	• Post-build actions (such as email notifications, archival of artifacts, and more)
+	• Source code management (such as Git or Subversion)
+7.Save and apply to save the project with the applied settings.
+8.Goto Dashboard >> My view to see all the created projects will be listed.
+9.Click Build => To run the build process.
+
+========================================================================================================================
+7.vLearn about CI, what is CI steps   CD - delivery and deployment steps ( draw your own diagram)
+
+Continuous Integration:In the context of software development it is the practice in which, every time the developer commits his code into the central repository, it is immediately verified by automated build and tests are run.
+
+Advantages of CI:
+>> Builds can be run any number of times and tested.
+>> The bugs are identified very quickly.
+>> The bug fixing time is reduced as the exact source of error is easily detected.
+>> The quality of the code is highly improved.
+
+Continuos Delivery : 
+
+>>The practice of manually taking the successfully build code and then automating the process of testing and deployment is call Continuous Delivery.
+>> After the code is validated, the operations team will proceed with deploying all the code changes to testing environment and then the production environment.
+>> Any errors found will be directed to the development team to resolve. 
+                    
+
+Continuos Deployment: 
+>> It is the practice in which the steps of building the source code,unit testing ,testing in user environment and deploying in production environment is done through a automated pipeline workflow.
+>> There is no manual intervention between the integration and delivery.
+
+========================================================================================================================
+
+
+
+
+
